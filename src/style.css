@@ -1,3 +1,83 @@
-h1 {
-  color: red;
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Bree Serif', serif;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+button {
+  background-color: #fff;
+  border-radius: 0;
+  padding: 0.4rem 1rem;
+  border: 2px solid;
+}
+
+button:hover {
+  background-color: #e1dddd;
+}
+
+input {
+  border-radius: 0;
+  padding: 0.4rem 1rem;
+  border: 2px solid;
+}
+
+#header h1 {
+  font-size: 55px;
+}
+
+#score-section {
+  display: flex;
+  gap: 5rem;
+  padding: 2rem 3rem;
+}
+
+#add-score input {
+  width: 100%;
+  display: block;
+  margin: 0 0 1rem 0;
+}
+
+#add-score button {
+  display: block;
+  margin: 0 -2.2rem 0 auto;
+}
+
+#recent-score {
+  display: block;
+}
+
+.scores {
+  width: 20rem;
+  border: 2px solid;
+  padding: 0.5rem 0;
+}
+
+.scores ul {
+  list-style: none;
+  width: 100%;
+  margin: 0 0 0 -2.5rem;
+}
+
+.scores ul li {
+  margin-bottom: 0.2rem;
+}
+
+.scores ul li:nth-child(even) {
+  background-color: #d1d1d1;
+}
+
+.recent-header {
+  /* display: flex; */
+  width: 20rem;
+  justify-content: space-between;
+  margin: 0 0 2rem 0;
+}
+
+.recent-header h3 {
+  display: inline-block;
+  margin: 0 4rem 0 0;
 }

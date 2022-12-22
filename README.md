@@ -131,6 +131,19 @@ Give a ⭐️ if you like this project!
 
 <!-- ACKNOWLEDGEMENTS -->
 
+
+<!-- FUTURE FEATURES -->
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- **Use callbacks and promises**
+- **Use ES6 modules to write modular JavaScript**
+- **Send and receive data from an API** 
+
+<!-- FUTURE FEATURES -->
+
+
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse and all my colleagues who have helped me making this project.

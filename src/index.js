@@ -4,7 +4,7 @@ import './style.css';
 import { add, loadList } from './data.js';
 /* eslint-enable */
 
-const gameId = 'q1w2E3r4Y5g5S5e4fsrt';
+const gameId = 'q1w2E3r4Y5g5S5e4fsru';
 const myList = document.getElementById('leaderboard');
 const form = document.getElementById('entry-form');
 const btnRefresh = document.getElementById('btnRefresh');

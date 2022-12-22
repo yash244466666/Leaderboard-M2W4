@@ -25,59 +25,88 @@ input {
   border: 2px solid;
 }
 
-#header h1 {
-  font-size: 55px;
-}
-
-#score-section {
-  display: flex;
-  gap: 5rem;
-  padding: 2rem 3rem;
-}
-
-#add-score input {
-  width: 100%;
-  display: block;
-  margin: 0 0 1rem 0;
-}
-
-#add-score button {
-  display: block;
-  margin: 0 -2.2rem 0 auto;
-}
-
-#recent-score {
-  display: block;
-}
-
-.scores {
-  width: 20rem;
+#submit-btn {
+  background-color: #fff !important;
+  border-radius: 0;
+  padding: 0.4rem 1rem;
   border: 2px solid;
-  padding: 0.5rem 0;
 }
 
-.scores ul {
-  list-style: none;
+#submit-btn:hover {
+  background-color: #e1dddd !important;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 2em;
   width: 100%;
-  margin: 0 0 0 -2.5rem;
+  height: 80px;
+  padding-left: 20px;
 }
 
-.scores ul li {
-  margin-bottom: 0.2rem;
+.leaderboard {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  padding: 1em;
 }
 
-.scores ul li:nth-child(even) {
-  background-color: #d1d1d1;
+.leaderboard .show-list {
+  width: 60%;
+  margin-top: 1em;
+  height: 320px;
 }
 
-.recent-header {
-  /* display: flex; */
-  width: 20rem;
+.leaderboard .show-list .show-list-head {
+  display: flex;
   justify-content: space-between;
-  margin: 0 0 2rem 0;
+  align-items: center;
 }
 
-.recent-header h3 {
-  display: inline-block;
-  margin: 0 4rem 0 0;
+.leaderboard .show-list .show-list-head button {
+  padding: 0.5em 1em;
+}
+
+.leaderboard .show-list #leaderboard {
+  border: 1px solid black;
+  height: 100%;
+}
+
+.leaderboard .add-item {
+  width: 40%;
+  height: 500px;
+  padding: 1em;
+}
+
+.leaderboard-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0.5em 10px 0.5em -30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+form input[type=text],
+form input[type=number] {
+  padding: 0.5em;
+  border: 1px solid #080808;
+  border-radius: 4px;
+  width: 100%;
+}
+
+form input[type=submit] {
+  padding: 0.5em 1em;
+  align-self: flex-end;
 }
